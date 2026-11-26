@@ -1,6 +1,6 @@
 # Push 3 for Logic Pro user manual
 
-For version 0.15.1. Use Ableton Push 3 over USB to play instruments, mix, edit plug-ins, launch Live Loops and program Logic’s Step Sequencer. When you’re done, release Push from the companion and open Ableton Live as usual.
+For version 0.15.3. Use Ableton Push 3 over USB to play instruments, mix, edit plug-ins, launch Live Loops and program Logic’s Step Sequencer. When you’re done, release Push from the companion and open Ableton Live as usual.
 
 [Download the installer](https://github.com/iamcaptaine/Push3Logic-Releases/releases/latest)
 
@@ -16,12 +16,12 @@ For version 0.15.1. Use Ableton Push 3 over USB to play instruments, mix, edit p
 
 ## Install and connect
 
-You need an Apple silicon Mac with macOS 13 or later, a compatible installation of Logic Pro and a Push 3 connected via USB. Put Push in **Control Live** mode, including on standalone models. Use the Apple silicon package from Releases. The v0.15.1 package is unsigned and unnotarized, so macOS may require explicit approval to open it.
+You need an Apple silicon Mac with macOS 13 or later, a compatible installation of Logic Pro and a Push 3 connected via USB. Put Push in **Control Live** mode, including on standalone models. Use the Apple silicon package from Releases. The package is unsigned and unnotarized, so macOS may require explicit approval to open it.
 
 1. Open **Push 3 for Logic Pro** from Applications. macOS asks for **Accessibility** to operate Logic dialogs and editing controls, and **Screen Recording** to read the Step Sequencer window for pad LEDs. Follow the prompts in **System Settings → Privacy & Security** and relaunch if macOS requests it. Screen Recording can be skipped if you don’t need Step Sequencer pad feedback. The Push display uses USB independently.
-2. In **Manage License…**, enter your Polar license key. The one-time US$39.99 license covers two Macs. The licensed app verifies online at launch. Use **Manage License…** or the [Polar Customer Portal](https://polar.sh/airscape-records/portal) to manage activations.
+2. In **Manage License…**, choose **Start 15-Day Trial** or enter your Polar license key. The trial starts when you click the button and works offline. The one-time US$39.99 license covers two Macs. First activation requires internet access. Each successful Polar check allows 30 days offline. Connect to the internet to verify again after that. Existing activations need one online check after updating to establish the offline window. Use **Manage License…** or the [Polar Customer Portal](https://polar.sh/airscape-records/portal) to manage activations.
 3. Connect Push. **Overview** shows when the Mac sees its User ports, even before connection. Click **Launch & Connect**. The companion opens Logic if needed, switches Push to User Mode, enables the instrument pads and connects the screen. If prompted, quit Ableton Live so the companion can take over the hardware.
-4. Open a Logic project. On first setup, open **Logic Pro → Control Surfaces → Setup**, then **New → Install** and add **Mackie Control**. Click the new surface and set its ports exactly as shown below.
+4. Open an existing project or choose one from Logic’s Project Chooser. Locally stored projects are available offline. On first setup, open **Logic Pro → Control Surfaces → Setup**, then **New → Install** and add **Mackie Control**. Click the new surface and set its ports exactly as shown below.
 5. Select a software instrument track. Route **Push 3 for Logic Pro Pads** to it for musical input. Exclude the raw Push User port and the companion Control port from musical input to avoid duplicate notes or stray MIDI.
 6. Press **Play** on Push, turn one of the eight knobs above the screen in **Mixer → Volume**, then press **Note** and play a pad. These checks cover transport, mixer feedback and instrument routing.
 
