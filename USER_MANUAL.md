@@ -1,6 +1,6 @@
 # Push 3 for Logic Pro user manual
 
-For version 0.15.5. Use Ableton Push 3 over USB to play instruments, mix, edit plug-ins, launch Live Loops and program Logic’s Step Sequencer. When you’re done, release Push from the companion and open Ableton Live as usual.
+For version 0.15.6. Use Ableton Push 3 over USB to play instruments, mix, edit plug-ins, launch Live Loops and program Logic’s Step Sequencer. When you’re done, release Push from the companion and open Ableton Live as usual.
 
 [Download the installer](https://github.com/iamcaptaine/Push3Logic-Releases/releases/latest)
 
@@ -54,7 +54,7 @@ The eight knobs above the screen, called **encoders**, control the eight visible
 | **Duplicate + track button** | Duplicate the track with its settings and content. |
 | **Delete + track button** | Request removal of that track. Review any native Logic dialog before confirming. |
 
-In Volume view the strips show continuous signal meters in green, yellow and red. Adjusting a fader temporarily shows its position as a percentage and a bar, then the signal meter returns. Pan and Send Level keep their value bars. To follow selections made with the mouse, enable **Control surface follows track selection** in Logic’s Control Surfaces settings.
+In Volume view each strip shows a continuous vertical signal meter in green, yellow and red alongside a horizontal fader bar and percentage. Both are visible while you adjust the fader. The selected track is highlighted across the entire strip. Pan and Send Level show horizontal value bars. To follow selections made with the mouse, enable **Control surface follows track selection** in Logic’s Control Surfaces settings.
 
 ### Reset a value
 
