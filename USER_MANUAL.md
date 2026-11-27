@@ -1,6 +1,6 @@
 # Push 3 for Logic Pro user manual
 
-For version 0.15.3. Use Ableton Push 3 over USB to play instruments, mix, edit plug-ins, launch Live Loops and program Logic’s Step Sequencer. When you’re done, release Push from the companion and open Ableton Live as usual.
+For version 0.15.5. Use Ableton Push 3 over USB to play instruments, mix, edit plug-ins, launch Live Loops and program Logic’s Step Sequencer. When you’re done, release Push from the companion and open Ableton Live as usual.
 
 [Download the installer](https://github.com/iamcaptaine/Push3Logic-Releases/releases/latest)
 
@@ -32,7 +32,7 @@ You need an Apple silicon Mac with macOS 13 or later, a compatible installation 
 
 The Mackie ports appear during connection. The Loops ports appear when you first enter **Session**. The companion picks the matching **Ableton Push 3 User Port** for both hardware directions. Use **Advanced → Push ports** if you have several units or need to choose the pair manually.
 
-**Overview** shows connection state and a preview of the hardware screen. Use **Mixer**, **Sounds**, **Pads** and **Play & record** during a session. **Setup & help** shows first-run steps and the hardware shortcut guide. **Advanced** contains port selection, display controls, custom button mappings and diagnostics.
+Click the Dock icon or choose **Show Main Window** from the companion’s menu bar icon to reopen the window. **Overview** shows connection state and a preview of the hardware screen. Use **Mixer**, **Sounds**, **Pads** and **Play & record** during a session. **Setup & help** shows first-run steps and the hardware shortcut guide. **Advanced** contains port selection, display controls, custom button mappings and diagnostics.
 
 ## Mixer and resets
 
@@ -109,7 +109,8 @@ Velocity, pressure, pitch bend and MPE expression are routed through the compani
 | **Stop Clips** | Stop Logic’s transport. In Session, **Lock + Stop Clips** uses the selected-track stop action. |
 | Tap **Metronome** | Toggle the click. Hold for Metronome Settings. **Shift + tap** toggles Count In. |
 | **Tap Tempo** | Tap twice or more at the desired pace. Turn the Tempo knob for whole BPM or hold **Shift** for tenths. |
-| Turn / press big **Volume** knob | Adjust Stereo Out / open Logic’s Mixer. |
+| Turn big **Volume** knob | Adjust speakers connected to Push’s Out 1 and 2. Push briefly displays the current output gain in dB. Select **Ableton Push 3 Audio** as the output device in Logic’s Audio settings to hear Logic through those outputs. |
+| **Shift + turn** / press big **Volume** knob | Adjust Logic’s Stereo Out fader / open Logic’s Mixer. |
 | **Fixed Length** | Toggle Cycle. **Shift + Fixed Length** opens bounded Tracks recording settings. |
 | **Automate** | Toggle Touch/Read. **Shift + Automate** requests Read. Hold **Automate** to choose Read, Touch, Latch or Write, or show automation. Erase automation in Logic’s editor. |
 | **Clip** | Open the region controls and Piano Roll. Screen buttons can quantize, repeat, set locators by selection, toggle Cycle or open Steps and Automation. |
