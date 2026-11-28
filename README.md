@@ -4,4 +4,4 @@
 
 Download the Apple silicon installer and checksum from [Releases](https://github.com/iamcaptaine/Push3Logic-Releases/releases). Release notes list supported hardware and signing status.
 
-Quit the companion before installing an update.
+Updating from v0.15.10 or earlier? In the companion, choose **Check for Updates…**, then **Download Installer** and **Show Installer**. Quit the companion and open the downloaded package. From v0.15.11 onward, choose **Install and Relaunch** after a download.

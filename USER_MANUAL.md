@@ -1,6 +1,6 @@
 # Push 3 for Logic Pro user manual
 
-For version 0.15.10. Use Ableton Push 3 over USB to play instruments, mix, edit plug-ins, launch Live Loops and program Logic’s Step Sequencer. When you’re done, release Push from the companion and open Ableton Live as usual.
+For version 0.15.11. Use Ableton Push 3 over USB to play instruments, mix, edit plug-ins, launch Live Loops and program Logic’s Step Sequencer. When you’re done, release Push from the companion and open Ableton Live as usual.
 
 [Download the installer](https://github.com/iamcaptaine/Push3Logic-Releases/releases/latest)
 
@@ -173,7 +173,8 @@ Use **Record** on an empty cell. To record over an occupied cell, set **Rec Mode
 
 ## Updates and troubleshooting
 
-- **Update the app.** Automatic checks are on by default. You can turn them off in the Software Updates panel. When the app offers an update, click **Download Installer**. After verification, click **Show Installer**, quit the app and open the package in Downloads.
+- **Update the app.** When an update appears, click **Download Installer**, then **Install and Relaunch**. The companion releases Push and quits. Approve the macOS administrator prompt to install the update. The updated companion opens from Applications. Click **Launch & Connect** when you’re ready to use Push with Logic again.
+- **Install manually.** Click **Show Installer**, quit the companion and open the package in Downloads. Use this route when updating from v0.15.10 or earlier. Automatic checks can be turned off in the Software Updates panel.
 - **An update check timed out.** Starting with v0.15.10, the app retries a check or download once after a timeout or a dropped connection. To retry yourself on any version with the updater, open **Push 3 for Logic Pro → Check for Updates…**. Click **Check Again** to look for the release or **Download Installer** to restart a download.
 - **Push is detected but Logic has no feedback.** Check the Mackie input and output against the ports table and confirm Logic’s control surfaces are enabled. Keep the Mackie entry assigned to the companion’s Control and Feedback ports. A leftover test surface is unnecessary for this setup. Keep any separate surface you intentionally use for other gear.
 - **A mixer strip says Awaiting or a send doesn’t respond.** Open More mixer options to reapply the mixer assignment. In Sends view, verify the shown send slot exists on that Logic strip. After switching banks, give Logic time to report the new strips.
