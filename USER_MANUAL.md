@@ -1,6 +1,6 @@
 # Push 3 for Logic Pro user manual
 
-For version 0.15.6. Use Ableton Push 3 over USB to play instruments, mix, edit plug-ins, launch Live Loops and program Logic’s Step Sequencer. When you’re done, release Push from the companion and open Ableton Live as usual.
+For version 0.15.9. Use Ableton Push 3 over USB to play instruments, mix, edit plug-ins, launch Live Loops and program Logic’s Step Sequencer. When you’re done, release Push from the companion and open Ableton Live as usual.
 
 [Download the installer](https://github.com/iamcaptaine/Push3Logic-Releases/releases/latest)
 
@@ -109,7 +109,7 @@ Velocity, pressure, pitch bend and MPE expression are routed through the compani
 | **Stop Clips** | Stop Logic’s transport. In Session, **Lock + Stop Clips** uses the selected-track stop action. |
 | Tap **Metronome** | Toggle the click. Hold for Metronome Settings. **Shift + tap** toggles Count In. |
 | **Tap Tempo** | Tap twice or more at the desired pace. Turn the Tempo knob for whole BPM or hold **Shift** for tenths. |
-| Turn big **Volume** knob | Adjust speakers connected to Push’s Out 1 and 2. Push briefly displays the current output gain in dB. Select **Ableton Push 3 Audio** as the output device in Logic’s Audio settings to hear Logic through those outputs. |
+| Turn big **Volume** knob | Adjust speakers connected to Push’s Out 1 and 2. The dB readout follows the knob as you turn. When you stop, the companion reads back the speaker gain and the display returns to its previous view. Select **Ableton Push 3 Audio** as the output device in Logic’s Audio settings to hear Logic through those outputs. |
 | **Shift + turn** / press big **Volume** knob | Adjust Logic’s Stereo Out fader / open Logic’s Mixer. |
 | **Fixed Length** | Toggle Cycle. **Shift + Fixed Length** opens bounded Tracks recording settings. |
 | **Automate** | Toggle Touch/Read. **Shift + Automate** requests Read. Hold **Automate** to choose Read, Touch, Latch or Write, or show automation. Erase automation in Logic’s editor. |
