@@ -173,7 +173,8 @@ Use **Record** on an empty cell. To record over an occupied cell, set **Rec Mode
 
 ## Updates and troubleshooting
 
-- **Update the app.** Choose **Check for Updates…** in the app or menu bar. The updater verifies the installer against the release checksum and puts it in Downloads. Quit the app and run that installer. Automatic checks are enabled by default and can be turned off in the Updates panel.
+- **Update the app.** Automatic checks are on by default. You can turn them off in the Software Updates panel. When the app offers an update, click **Download Installer**. After verification, click **Show Installer**, quit the app and open the package in Downloads.
+- **An update check timed out.** Open **Push 3 for Logic Pro → Check for Updates…**. If the check times out again, click **Check Again**. If the version is already displayed and the download was interrupted, click **Download Installer** again.
 - **Push is detected but Logic has no feedback.** Check the Mackie input and output against the ports table and confirm Logic’s control surfaces are enabled. Keep the Mackie entry assigned to the companion’s Control and Feedback ports. A leftover test surface is unnecessary for this setup. Keep any separate surface you intentionally use for other gear.
 - **A mixer strip says Awaiting or a send doesn’t respond.** Open More mixer options to reapply the mixer assignment. In Sends view, verify the shown send slot exists on that Logic strip. After switching banks, give Logic time to report the new strips.
 - **Pads don’t play or play twice.** Press Note, select a software instrument and verify that the track receives the companion Pads source. Remove direct raw Push MIDI from the track’s musical input. Use **Panic** if notes get stuck.
